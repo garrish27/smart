@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flex</title>
+    <style>
+        #gParent{
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin-top: auto;
+            margin-bottom: auto;
+            height: fit-content;
+            left: 0;
+            right: 0;
+            margin-left: auto;
+            margin-right: auto;
+            width: fit-content;
+
+        }
+        .parent{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .child{
+
+            width: 100px;
+            height:100px;
+            border: 1px solid gold;
+            margin: 2px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="gParent">
+        <div class="parent">
+                <div class="child">Q</div>
+                <div class="child">W</div>
+                <div class="child">E</div>
+                <div class="child">R</div>
+                <div class="child">T</div>
+                <div class="child">Y</div>
+                <div class="child">U</div>
+                <div class="child">I</div>
+                <div class="child">O</div>
+                <div class="child">P</div>
+        </div>
+        <div class="parent">
+                <div class="child">A</div>
+                <div class="child">S</div>
+                <div class="child">D</div>
+                <div class="child">F</div>
+                <div class="child">G</div>
+                <div class="child">H</div>
+                <div class="child">J</div>
+                <div class="child">K</div>
+                <div class="child">L</div>
+        </div>
+        <div class="parent">
+                <div class="child">Z</div>
+                <div class="child">X</div>
+                <div class="child">C</div>
+                <div class="child">V</div>
+                <div class="child">B</div>
+                <div class="child">N</div>
+                <div class="child">M</div>
+        </div>
+    </div>
+</body>
+</html>

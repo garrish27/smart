@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+<style>
+.item:nth-child(1){
+grid-area: area1;   
+border: 1px solid red;
+background: green;
+}
+.item:nth-child(2){
+    grid-area: area2;
+    border: 1px solid red;
+    background: lightblue;    
+}
+.item:nth-child(3){
+    grid-area: area3;
+    border: 1px solid red;
+    background: pink ;
+}
+.item:nth-child(4){
+    grid-area: area4;
+    border: 1px solid red;
+    background: yellow;
+    
+}
+.item:nth-child(5){
+    grid-area: area5;
+    border: 1px solid red;
+    background: coral;
+}
+.item:nth-child(6){
+    grid-area: area6;
+    border: 1px solid red;
+    background: red;
+}
+
+.container{
+    display:grid;
+    grid-template-rows: 3;
+    grid-template-columns: 3;
+    background: yellow;
+    height: 120vh;
+    width: 100vw;
+    gap: 5px;
+    grid-template: 
+    "area1 area2 area3"
+    "area4 area5 area5"
+    "area6 area5 area5" 
+
+}   
+
+
+</style>
+
+
+
+</head>
+
+
+<body>
+ <div class="container">
+
+  <div class="item">A</div>
+  <div class="item">B</div>
+  <div class="item">C</div>
+  <div class="item">D</div>
+  <div class="item">E</div>
+  <div class="item">F</div>
+
+
+ </div>
+    
+</body>
+</html>
